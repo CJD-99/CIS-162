@@ -1,0 +1,17 @@
+body {background-color:tan;
+        font-family: Segoe, Verdana, sans-serif;}
+        
+h1 {background-color:rosybrown;
+        }
+        
+h1{color:black;}
+nav > ul {line-height:2em;
+    list-style-type: none;
+    padding-left:5px;}
+    
+section {background-color: rosybrown;
+        width:75%;
+        font-size: 1.2em;}
+        
+footer {background-color: rosybrown;
+        width: 15%;}
