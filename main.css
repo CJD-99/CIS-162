@@ -1,17 +1,87 @@
-body {background-color:tan;
-        font-family: Segoe, Verdana, sans-serif;}
-        
-h1 {background-color:rosybrown;
-        }
-        
-h1{color:black;}
-nav > ul {line-height:2em;
-    list-style-type: none;
-    padding-left:5px;}
-    
-section {background-color: rosybrown;
-        width:75%;
-        font-size: 1.2em;}
-        
-footer {background-color: rosybrown;
-        width: 15%;}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+width: 75%;
+background-color: #cedeba;
+font-family: Segoe, Verdana, sans-serif;
+}
+
+/* Style the header */
+ .header {
+  background-color: #617c36;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+color: whitesmoke;
+}
+
+h2 {
+color: #283419;
+}
+
+.footer {
+background-color: #617c36;
+}
+
+.column a {
+color: #9bbd75;
+}
+
+.footer a {
+color: #9bbd75;
+}
+
+.row {
+background-color: #b5cd98;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #283419;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #dae6cb;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 45.00%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
