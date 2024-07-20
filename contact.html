@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Contact Us</title>
+<link href="main.css" rel="stylesheet" />
+
+  </head>
+
+<body>
+   <header>
+       <img src="GoodEYE.png" alt="GOODEYE" />
+       <nav class="horizontalNavigation">
+          <ul>
+             <li><a href="home.html">Home</a></li>
+             <li><a href="#">Products</a></li>
+             <li><a href="index.html">About Us</a></li>
+             <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+       </nav>
+    </header>
+
+    <div class="row"> <!--Row1-->
+      <h1>Contact Us</h1>
+    </div>
+
+    <h2>Get in touch</h2>
+<p>Have a question? We're here to help!</p>
+
+<div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">First Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Last Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="country">Country</label>
+    </div>
+    <div class="col-75">
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">What can we help you with?</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <input type="submit" value="Submit">
+  </div>
+  </form>
+</div>
+
+  <div class="row"> <!--Row2-->
+    <footer> GOODEYE&copy; 2024 All Rights Reserved</footer>
+  </div>
+
+</body>
+</html>
