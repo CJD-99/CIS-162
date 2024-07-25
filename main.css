@@ -307,3 +307,8 @@ input[type=submit]:hover {
     margin-top: 0;
   }
 }
+
+div.card {
+  color: rgb(234, 229, 211);
+    background-color:rgb(68,66,32); 
+}
