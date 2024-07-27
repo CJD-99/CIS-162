@@ -180,8 +180,8 @@ img {
 /* Right Column Styles */
 
 aside {
-   background-color: rgb(123, 89, 49);
-   padding-bottom: 2em;
+   background-color: transparent;
+   padding-bottom: 8em;
    margin-left: 1em;
 }
 
@@ -309,6 +309,11 @@ input[type=submit]:hover {
 }
 
 div.card {
+  color: rgb(234, 229, 211);
+    background-color:rgb(68,66,32); 
+}
+
+div.accordion-item {
   color: rgb(234, 229, 211);
     background-color:rgb(68,66,32); 
 }
